@@ -1,0 +1,99 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+nav{
+    display: inline-block;
+
+}
+
+nav li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+
+}
+
+.body-img{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    float: left;
+    width: 60%;
+
+}
+
+.nav1{
+    margin-left: 200px;
+
+}
+.nav1 li { 
+    padding-right: 10px;
+}
+.nav2 li { 
+    padding-left: 10px;
+}
+.nav2{
+    margin-right: 200px;
+
+}
+
+
+.aside{
+    float:right;
+    margin-left: 5em;
+    padding-right: 5em ;
+    width: 30%;
+    background-image: url(thrive.png);
+    margin-right: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+.my-body{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; 
+
+}
+
+.aside-head{
+    color: rgb(104, 184, 100) ;
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 2px;
+}
+
+/* 
+button a{
+    text-decoration: none;
+    color: black;
+    border: 3px solid black;
+} */
+
+a:visited{
+    color:black;
+    text-decoration: none;
+    border: 2px solid black;
+
+}
+.more{
+    border: 1px solid rgb(148, 144, 144);
+    padding: 3px;
+    display:inline-block;
+
+}
+
+.more a {
+    text-decoration: none;
+}
+
+.program{
+    display: flex;
+    justify-content: center;
+    color: rgb(121, 127, 128) ;
+    margin-top: 50px;
+}
